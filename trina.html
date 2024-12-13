@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poetry Collection</title>
+	
+	  <style>
+       
+
+        p {
+            color: black; /* Changes the color of all <p> elements */
+        }
+	
+		
+        body {
+            background-color: lightblue;
+			font-family: 'Georgia', serif;
+            margin: 0;
+            padding: 0 20px;
+        }
+		
+        header {
+            text-align: center;
+            padding: 20px;
+            color: #ggg;
+        }
+        .poem-container {
+            margin: 20px auto;
+            padding: 20px;
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            background-color: #fff;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+        }
+        .poem-title {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+    
+        .poem {
+            display: none; /* Initially hidden */
+            margin-top: 10px;
+            line-height: 1.8;
+            font-size: 16px;
+		}
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Poem Portfolio</h1>
+    Welcome to my collection of reflective poem entries!
+</header>
+
+<nav>
+    <a href="#About">About</a>
+    <a href="#Entries">Poems</a>
+	<a href="#Literary Analysis">Literary Analysis</a>
+    <a href="#Contact">Contact</a>
+</nav>
+
+<div class="container">
+    <section id="About">
+        <h2>About Me</h2>
+        <p>Hello! I am Katrina Lavador, a dedicated learner and educator pursuing my Master's degree. This portfolio is a reflection of my academic journey.</p>
+    </section>
+
+    <section id="Poems">
+        <h2>Poems:</h2>
+	</section>
+	
+	<style>
+    .hidden {
+      display: none;
+    }
+    .toggle-button {
+      cursor: pointer;
+      color: blue;
+      text-decoration: underline;
+    }
+  </style>
+  <script>
+    function toggleInfo(id) {
+      const info = document.getElementById(id);
+      info.style.display = (info.style.display === 'none' || !info.style.display) ? 'block' : 'none';
+    }
+  </script>
+    
+<!-- Poem 1 -->
+    <div class="poem-container">
+		 <p class="poem-title" onclick="togglePoem(this)">A Daughter's Cry</p>
+        <div class="poem-title"></div>
+        <div class="poem">
+            I used to hear the laughter, so silly and sweet,<br>
+			Echoing in the kitchen as we placed the feast.<br> 
+			Each voice whispering, " Stay, just for a while "<br>
+			A cradle of unknowing comfort, a fleeting smile.<br>
+
+			You used to say you love us dearly;<br>
+			Words we believed, though spoken insincerely.<br>
+			And on a foggy December night,<br>
+			I bid goodbye - I had lost the will to fight.<br> 
+
+			He used to ask if we regret being your daughter,<br> 
+			Funny, a father with guilt unmet.<br>
+			Or maybe he remembered your vows at the altar;<br>
+			Promising us, home, and warmth would never falter.<br>
+
+			Our neighbors used to gossip, "Such a picturesque frame,"<br>
+			A family to keep in the ones you play in the VTR game.<br>
+			Staring at our window, hoping they could have what we have,<br>
+			Now, nothing's left than a heart shattered in half.<br> 
+
+			But why did you leave us, forsaking your part?<br>
+			Was the weight of regret too much for your heart?<br>
+			Didn't you say we were your only trust?<br>
+			Then why leave us stranded, like a cloud of dust?
+
+        </div>
+    </div>
+
+    <!-- Poem 2 -->
+    <div class="poem-container">
+		 <p class="poem-title" onclick="togglePoem(this)">Whispers of the Wind</p>
+        <div class="poem-title"></div>
+        <div class="poem">
+            I used to hear the silly laughter,<br>
+			Echoing in the kitchen room as we place the lobster.<br>
+			Each voice tells me to stop over;<br>
+			Enjoy the comfort this brings like a baby in a cradle.<br>
+
+			You used to say you love us dearly;<br>
+			We didn't know you said it forcibly.<br>
+			And on December night,<br>
+			I bid goodbye I didn't want to fight.<br>
+
+			He used to ask if we regret being your daughter,<br>
+			Funny. Maybe he was just being a father.<br>
+			Or maybe he remembered the promise you made at the altar;<br>
+			When you said, all things like me, home, and warmth wouldn't falter.<br>
+
+			Our neighbors used to gossip about how picturesque we were,<br>
+			A family to keep in the ones you play in the VTR.<br>
+			Staring at our window, hoping they could have what we have.<br>
+			Now, nothing's left than a heart shattered in half.<br>
+
+			Yet, why did you leave us?<br>
+			Wondering if we deserve such a fuss.<br> 
+			Didn't you say you loved us?<br>
+			Then why did you leave us in the corner like a cloud of dust? 
+
+        </div>
+    </div>
+   <!-- Poem 3 -->
+    <div class="poem-container">
+		<p class="poem-title" onclick="togglePoem(this)">Pedestrian Lane</p>
+        <div class="poem-title"></div>
+        <div class="poem">
+            We're parallel lines.<br>
+			Our hearts will get closer and closer,<br>
+			But fate is meant to keep us apart.<br>
+			We flipped the page of our book<br>
+			Only to see it led us to different pages<br>
+
+			I trace the crosswalk of buried memories,<br> 
+			Each stride a pulse of what we could have been.<br> 
+			Yet the signal light abruptly turns red,<br> 
+			A silent signal to halt my sweven.<br> 
+
+			Your shadow lingers on the pavement,<br> 
+			But shadows never flank, only trails.<br> 
+			We both speak in the silence of intersections,<br> 
+			Voices drowned by the sailing time.<br> 
+			
+			What if, for just a moment,<br> 
+			The line could break and bend?<br>
+			Would the distance crumble into dust,<br> 
+			Or would the chaos tear us apart again?<br>
+
+			As I stand in the middle of this crossing,<br> 
+			I realize we are bound by the rules of our lane - our destiny:<br> 
+			To walk forward and depart but never entwine,<br> 
+			To meet only where paths momentarily align. 
+
+        </div>
+    </div>
+	<!-- JavaScript -->
+    <script>
+        function togglePoem(titleElement) {
+            // Get the next sibling of the clicked title (the poem container)
+            const poem = titleElement.nextElementSibling.nextElementSibling;
+            if (poem.style.display === "none" || poem.style.display === "") {
+                poem.style.display = "block"; // Show the poem
+            } else {
+                poem.style.display = "none"; // Hide the poem
+            }
+        }
+    </script>
+
+	<style>
+        body {
+            font-family: 'Georgia', serif;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 0;
+            padding: 0 20px;
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: #fff;
+        }
+        .literary-container {
+            margin: 20px auto;
+            padding: 20px;
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            background-color: #fff;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+        }
+        .literary-title {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+    
+        .literary {
+            display: none; /* Initially hidden */
+            margin-top: 10px;
+            line-height: 1.8;
+            font-size: 16px;
+		}
+    </style>
+<div class="container">	
+<section id="Literary Analysis">
+		<h2>Literary Analysis</h2>
+	</section>
+ <style>
+    .hidden {
+      display: none;
+    }
+    .toggle-button {
+      cursor: pointer;
+      color: blue;
+      text-decoration: underline;
+    }
+  </style>
+  <script>
+    function toggleInfo(id) {
+      const info = document.getElementById(id);
+      info.style.display = (info.style.display === 'none' || !info.style.display) ? 'block' : 'none';
+    }
+  </script>
+  
+<!-- literary 1 -->
+    <div class="literary-container">
+		 <p class="literary-title" onclick="toggleliterary(this)">Cultural Materialism on Guy de Maupassant's The Piece of String</p>
+		<div class="literary-author">by Katrina C. Lavador, MAED- ELT</div>
+        <div class="literary">
+            Culture is one of the fundamental aspects that bind people together but
+		sometimes, it is what breaks a person. In "The Piece of String," Maitre Hauchecorne of
+		Breaute was devastated when he was accused of theft, yet no one ever believed in him
+		despite the evidence. Even before his death, he wants to prove to the people living in
+		Goderville that he is innocent. A line that capsulized his feelings is, "What grieved me
+		was not the thing itself... but it was lies. There's nothing that does you so much harm as
+		being in disgrace for lying." The society he belongs to is full of hardworking people, this
+		is the reason why they value honesty so much.<br><br>
+		Most of the people in Goderville are peasants. Men work hard in plowing and
+		reaping corn to sustain their needs. The place where Maitre Hauchecorne went is
+		bustling with people since it is quite small. The combined smell of stable, milk, hay, and
+		perspiration is part of their daily life that no longer bothers them. The noise made by
+		humans and animals is also natural for them. People, especially aristocrats of the plow,
+		are used to eating at Mait Jourdains. Eating there is part of their routines. The
+		Goderville is more like a political economy rather than a cultural economy. Although
+		people know who are, they interact without any emotional connection. The mayor's
+		function is to actively engage in whatever is happening in the city. Maitre Hauchecorne
+		talks with other people to narrate what happened but the more he talks to them, the
+		more the emotional gap expands. People chose to believe Maitre Malandain to Maitre
+		Hauchecorne. Since most of them are peasants, they know how hard it is to gain
+		money. For this reason, they value honesty. However, despite valuing such a thing, they
+		believe in lies. They called him an old rogue and other names. On the other hand,
+		Maitre Hauchecorne's willingness to be saved from shame leads him to despair. His
+		shameful hiding of a string corrupted his reputation.<br><br>
+		Maitre Hauchecorne is an example of a person who's broken by society’s culture.
+		There is nothing wrong with valuing honesty, as long as we don’t listen and believe in
+		lies being said in our faces. In any way, people will believe what they want to believe
+		even if it's not the truth. Sometimes, we don't have to listen to what society dictates
+		because they will always find a loophole.
+
+        </div>
+    </div>
+
+    <!-- literary 2 -->
+    <div class="literary-container">
+		 <p class="literary-title" onclick="toggleliterary(this)">Definition of Dreams in Guy de Maupassant’s The Necklace</p>
+		<div class="literary-author">by Katrina C. Lavador, MAED- ELT</div>
+        <div class="literary">
+            Guy de Maupassant's "The Necklace" exhibits the consequences of pretending to be
+		someone you are not and detaching dreams to reality. Guy de Maupassant grew up in an
+		affluent family. He found his inspiration in the deplorable behavior of the bourgeoisie. In the
+		story, Mathilde believes that becoming a member of the middle class is undesirable and a
+		terrible thing. However, when she loses the necklace she borrowed, she wakes up with her
+		fantasies and accepts the reality of her life. Dreams, in the story, are perceived more than
+		desires but not less than needs.<br><br>
+		In The Necklace, the characters' social standing is given importance since people value
+		you depending on the measure of your wealth in society. That is the foremost reason why
+		Mathilde wants to be rich. She also wants to stand to compete with other people. Her dreams of
+		having an elegant life and luxurious things are out of control. Also, her happiness depends on
+		the fancy dresses and jewels she does not own. Mr. Lionel, her husband, is the complete
+		opposite of her. He is happy and contented with what he has. That is evident when he sacrifices
+		his dreams of going out with his friends. Madame Forestier, on the other hand, did not let fancy
+		things deceive and control her even if she were a bourgeoisie. She does not value these
+		material things much. Looking into these characteristics depicts that the state's definition of
+		dreams is more than just the material things that a person can have. Goals should not be
+		measured by earthly commodities since they only give temporary happiness. It will fulfill you at
+		first, and then it will advance its demands, and then you will never be satisfied with what you
+		have. Further, it conveys that some dreams are not worth trading for with other's dreams while
+		some will only remain as dreams.<br><br>
+		The story, "The Necklace," parades the importance of combining dreams with reality.
+		Reality and dreams should go hand in hand since dreams are more than the desires of a person
+		but not less than their needs. Thus, material things should not be the basis for our goals. A
+		person's dreams should also be guided by the world to achieve them. It should not dwell on the
+		individual's fantasies and imaginations. Rather, dreams should help you in building a good
+		reality.
+
+        </div>
+    </div>
+	
+	 <!-- literary 3 -->
+    <div class="literary-container">
+		<p class="literary-title" onclick="toggleliterary(this)">New Criticism Analysis on "The Wedding Dance"</p>
+		<div class="literary-author">by Katrina C. Lavador, MAED- ELT</div>
+        <div class="literary">
+			The story revolves around the characters of Awiyao and Lumnay who separated after
+		seven years of marriage because of the tribe's unwritten law. The story is mainly about love,
+		sacrifices, and societal expectations. From the feeling of sadness to despair, the persona from a
+		third person's point of view was able to transmit this feeling to the readers. Also, the language		
+		used is unambiguous and detailed and even the little thing is noticeable. The elements existing
+		in the text added excitement and meaning to the story.<br><br>
+		The story utilized literary devices well. It used flashbacking to shape the entire narrative
+		and to add intensity. Imagery is applied to give a clear picture of how Lumnay suffered from
+		Awiyao's decision to marry Madilumay when Lumnay started pulling the rattan flooring. The
+		story also exhibits how ironic Awiyao is when he says he does not want any woman but
+		Lumnay. However, he proceeded to marry Madilumnay. Throughout the plot, gangsas are heard
+		many times. These gangsa represent the tribe's power which Lumnay and Awiyao cannot
+		oppose. It also stood as an encouragement for both Awiyao and Lumnay that they must go on
+		with their new lives and forget the past they shared. The fire in the story is also essential since it
+		signifies the burning love and passion they shared but died down because of the circumstance
+		of not bearing a child. The night when the wedding happened mirrors the sadness and seclusion
+		Lumnay felt after being replaced by Madilumnay. Moreover, there are two recurring themes
+		present in the story. The first theme emphasizes that culture manipulates decisions
+		predominantly through love. Even if Awiyao and Madilumnay loved each other wholeheartedly,
+		they still were separated because of society's expectations. Another theme is the art of letting
+		go because the culture triumphs. Lumnay permitted her husband to go because she knew she
+		could not compete with the unwritten law of their tribe.<br><br>
+		The story's literary devices worked together to create meaning throughout. The point of
+		view makes the character's emotions readable to the readers without ignoring the recurring
+		themes and tones. Besides, symbolism, irony, and imagery gave a coherent picture of the story
+		without flaws. With these elements, the readers understand what the text says and feels.
+		 </div>
+    </div>
+	
+	 <!-- literary 4 -->
+    <div class="literary-container">
+		<p class="literary-title" onclick="toggleliterary(this)">Formalistic and Reader Response Analysis of Bonsai by Edith L. Tiempo</p>
+		<div class="literary-author">by Katrina C. Lavador, MAED- ELT</div>
+        <div class="literary">
+			<i>"When love is great, when love is profound, it becomes more difficult to control. And in
+		the hands of people who are unable to control it, love overwhelms the person. This is
+		the destructive nature of love."</i><br><br>
+		The poem "Bonsai" by Edith Tiempo explores the nature of love and the way
+		people infuse objects with their love for someone, transforming those objects into
+		symbols of that love. Tiempo begins by describing how she "folds" love, making it
+		smaller so it can fit into a box, a hollow post, or even a shoe. Since love is abstract and
+		intangible, she uses physical objects as representations of it. However, the poem is not
+		about love for the objects themselves. Instead, it highlights how love for a person or
+		place can be encapsulated in objects that evoke memories of them. These objects,
+		small and easy to keep, serve as vessels for memory and love, preserving them in a
+		tangible form.<br><br>
+		In this way, the objects act as a physical manifestation of love-they can be
+		touched and held, and they remain constant even if love itself changes or fades. They
+		become evidence of the love that was felt, a testament to its reality because unlike love,
+		which is abstract, the objects are concrete. The poem, therefore, is an ode to these
+		often-overlooked objects, appreciating how they safeguard cherished memories. Like
+		the structure of a bonsai tree, which is meticulously shaped and scaled-down, these
+		objects hold profound meaning in their small size. They remind us that even the
+		simplest things can preserve a love or memory that should never be forgotten.<br><br>
+	<br><b>Structure:</b><br>
+		In the first stanza of the poem, Edith Tiempo expresses that everything she loves can
+		be folded or kept in small, manageable spaces-a box, a hollow post, or even a shoe.
+		This imagery emphasizes how small things are easy to store and preserve, even in the
+		most unlikely or challenging places.
+		The second stanza expands on this idea, highlighting the ease of keeping memories or
+		emotions when they are metaphorically "folded" into smaller, more compact forms.
+		Tiempo demonstrates her fondness for minimizing large, abstract concepts like love and
+		memory, distilling them into tangible, manageable representations.
+		In the third stanza, the poet reflects on the joy and fulfillment found in possessing
+		something small and significant, akin to holding a hand-sized object. This act of cupping
+		a cherished object brings a sense of comfort and intimacy, underscoring the deep
+		admiration and emotional resonance it evokes in the poet's heart.
+		Finally, the fourth stanza declares, "And life and love are real." This line affirms that both
+		life and love truly exist, especially through the tangible things that hold great personal
+		meaning. It suggests that even the smallest objects can carry immense emotional
+		weight, serving as powerful symbols of love and memory. Tiempo conveys how these
+		seemingly trivial items evoke a breathless sense of wonder and meaning for those who
+		appreciate and treasure them.<br><br>
+		<br><b>Figurative Language:</b><br>
+		The first stanza of the poem exhibits a free verse structure and incorporates various
+		literary devices such as repetition, enjambment, and alliteration. The stanza is carefully
+		crafted with a rhythmic pattern: lines 1 and 3 consist of 4 syllables, while lines 2 and 4
+		contain 5 syllables. The repetition of the word "once" in lines 2 and 3 emphasizes the
+		fleeting nature of the moments being described.<br><br>
+		<br><i>Literary Devices:</i><br>
+		<br><b>Metaphor:</b><br>
+		The poem uses the image of a "cupped hand" as a metaphor to convey the act of
+		asking for and giving love. This imagery highlights the fundamental human need to love
+		and be loved, symbolizing the delicate yet profound exchange between individuals.
+		In the line, "Till seashells are broken pieces," the poet presents another metaphor,
+		exploring the mystery of how something vast-like the sound of the ocean-can be
+		captured in something as small as a seashell. Similarly, the vastness and complexity of
+		love can be contained within a small, tangible object, embodying the poem's theme of
+		love being simplified and made accessible. The essence of the poem is that love,
+		despite its immensity, is distilled into something one can hold in a single hand and pass
+		on to another.<br>
+		<br><b>Oxymoron:</b><br>
+		The poem also employs oxymoron to express the paradoxical nature of love. In the line
+		"All that I love?" the interrogative tone prompts a moment of self-examination, which is
+		addressed in the following stanza: "Why, yes but for the moment-/ And for all time,
+		both." These lines reveal the duality of love-it is both fleeting and eternal. This
+		contradiction reflects the reality that love can feel temporary, as it may wane or be
+		disrupted by hatred, yet it can also endure as a timeless and eternal force.
+		Tiempo further brings love into the realm of the familiar by associating it with everyday
+		objects: "Son's note, or Dad's gaudy tie, / A roto picture of a young queen, / A blue
+		Indian shawl, even/ A money bill." By referencing these items, she portrays love's
+		sublimation-the transformation of something abstract, like an emotion, into something
+		concrete, like a physical object. This process makes love tangible, allowing it to be held,
+		remembered, and controlled, thus bridging the gap between the intangible and the real.<br>
+		<br><b>SO, why bonsai?</b><br>
+		One might wonder why the author chose "Bonsai" as the title of the poem when, by
+		definition, an ornamental tree or shrub grown in a pot and artificially prevented from
+		reaching its normal size. The title, however, serves as a powerful metaphor for the
+		poem's theme: love, much like a bonsai, is something that can be nurtured, shaped, and
+		contained. The poem explores how love is simplified and reduced into a compact form,
+		making it easier to preserve, cherish, and share with others. Just as a bonsai is a
+		miniature version of a large tree, love in this poem is portrayed as a distilled version of
+		something vast and complex. By shrinking love into something tangible and small, it
+		becomes a gift that can be passed down, much like a bonsai tree handed from one
+		generation to the next. Thus, the bonsai symbolizes love's ability to endure and adapt,
+		embodying the idea that even something as grand as love can be contained within the
+		simplest of gestures or objects.
+		 </div>
+    </div>
+	<!-- JavaScript -->
+   <script>
+        function toggleliterary(titleElement) {
+            const literary = titleElement.nextElementSibling.nextElementSibling;
+            if (literary.style.display === "none" || literary.style.display === "") {
+                literary.style.display = "block"; // Show the literary
+            } else {
+                literary.style.display = "none"; // Hide the literary
+            }
+        }
+    </script>
+
+	 <style>
+        /* Center the content */
+        body {
+            text-align: center; /* Centers text within the body */
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Center the title */
+        h1 {
+            margin-top: 20px;  /* Space above the title */
+            color: #333;       /* Title color */
+        }
+
+        /* Center the PDF */
+        .pdf-container {
+            display: block;
+            margin: 0 auto;  /* Centers the PDF container */
+            padding-top: 20px; /* Space above the PDF */
+        }
+
+    </style>
+	
+	<!-- Title above the PDF -->
+    <h1> Literary Impact Rubric</h1>  <!-- This is the title above the PDF -->
+    <!-- Embed the PDF -->
+	<embed src="C:\Users\pc-21\Desktop\PDF/RUBRICS_ LITERARY IMPACT.pdf" width="600" height="500" type="application/pdf">
+	
+	<!-- Title above the PDF -->
+    <h1> Processing Rubric</h1>  <!-- This is the title above the PDF -->
+    <!-- Embed the PDF -->
+	<embed src="C:\Users\pc-21\Desktop\PDF/RUBRICS_ PROCESSING.pdf" width="600" height="500" type="application/pdf">
+	
+	<!-- Title above the PDF -->
+    <h1>Storytelling Rubric</h1>  <!-- This is the title above the PDF -->
+    <!-- Embed the PDF -->
+	<embed src="C:\Users\pc-21\Desktop\PDF/RUBRICS_ STORYTELLING.pdf" width="600" height="500" type="application/pdf">
+	
+	<!-- Title above the PDF -->
+    <h1>Short Story Rubric</h1>  <!-- This is the title above the PDF -->
+    <!-- Embed the PDF -->
+	<embed src="C:\Users\pc-21\Desktop\PDF/RUBRIC_ SHORT STORY.pdf" width="600" height="500" type="application/pdf">
+	
+	<!-- Title above the PDF -->
+    <h1>Academic Essay Rubric</h1>  <!-- This is the title above the PDF -->
+    <!-- Embed the PDF -->
+	<embed src="C:\Users\pc-21\Desktop\PDF/RUBRIC_ ACADEMIC ESSAY.pdf" width="600" height="500" type="application/pdf">
+	
+	<!-- Title above the PDF -->
+    <h1>DLP on African Literature</h1>  <!-- This is the title above the PDF -->
+    <!-- Embed the PDF -->
+	<embed src="C:\Users\pc-21\Desktop\PDF/DLP on African Lit.pdf" width="600" height="500" type="application/pdf">
+	
+	
+<footer style="text-align: center; margin-top: 40px;">
+    <p>If you have any questions, feel free to reach out:</p>
+    <p>Email: <a href="mailto:eiamkathlao101@gmail.com">iamkathlao101@gmail.com</a></p>
+	<p> 2024 Teacher Trina Heart | All Rights Reserved</p>
+</footer>
+
+
+</body>
+</html>
